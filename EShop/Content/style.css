@@ -1,0 +1,77 @@
+﻿@import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
+
+body {
+    font-family: 'Noto Sans TC' !important;
+    font-weight: 300 !important;
+    padding:0;
+    margin:0;
+}
+
+main {
+    padding-top:30px;
+    padding-bottom: 60px;
+    box-sizing: border-box;
+}
+
+.field-list {
+    margin: 0 0 3px;
+    padding: 0;
+}
+
+.field-list li {
+    list-style: none;
+    padding-bottom: 10px;
+}
+
+.field-list label {
+    display: block;
+    padding-bottom: 1px;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 300;
+    color: #444;
+}
+
+.k-grid table tr:hover {
+    background: #ffb76b;
+    background: -moz-linear-gradient(top, #ffb76b 0%, #ffa73d 100%, #ff7c00 100%, #ff7f04 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffb76b), color-stop(100%,#ffa73d), color-stop(100%,#ff7c00), color-stop(100%,#ff7f04)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #ffb76b 0%,#ffa73d 100%,#ff7c00 100%,#ff7f04 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #ffb76b 0%,#ffa73d 100%,#ff7c00 100%,#ff7f04 100%); /* Opera 11.10+ */
+    background: -o-linear-gradient(top, #ffb76b 0%,#ffa73d 100%,#ff7c00 100%,#ff7f04 100%); /* IE10+ */
+    background: linear-gradient(to bottom, #ffb76b 0%,#ffa73d 100%,#ff7c00 100%,#ff7f04 100%); /* W3C */
+    cursor:pointer;
+}
+
+.k-notification-upload-success {
+    background: rgba(0%,60%,0%,.7);
+    color: #fff;
+}
+
+.upload-success {
+    width: 240px;
+    height: 100px;
+    padding: 0 30px;
+    line-height: 100px;
+}
+
+.upload-success h3 {
+    font-size: 1em;
+    font-weight: normal;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#read_window, #create_window, #update_window {
+    display: none;
+}
+
+#btn_read_window, #btn_create_window {
+    background: black;
+    border-color: black;
+}
+
+#btn_read_window:hover, #btn_create_window:hover {
+    background: #4F4F4F;
+    font-size: 24px;
+}

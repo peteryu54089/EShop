@@ -1,0 +1,56 @@
+﻿<!--<div class="parallax"></div>
+<img src="https://i.imgur.com/p3WLUGb.jpg" style="width:100%;height:auto;opacity:0.7;" />
+-->
+@model ProductCategoryModel
+@using EShop.Models
+@{
+    ViewBag.Title = "首頁";
+}
+
+<script>
+    $(function () {
+        $(".sg-col").animate({
+            opacity: 1,
+        }, 3000);
+
+        $(".sg-card-container").hover(
+            function () {
+                $(this).css("opacity", "0.5");
+                $(this).css("cursor", "pointer");
+                $(this).css({
+                    "border-color": "#C1E0FF",
+                    "border-width": "10px",
+                    "border-style": "solid"
+                });
+            }, function () {
+                $(this).css("opacity", "0.9");
+                $(this).css("cursor", "default");
+                $(this).css({
+                    "border-width": "0px"
+                });
+            }
+        );
+    });
+</script>
+
+<div class="uk-container uk-text-left" id="first_layout">
+    <div class="sg-paragraphs">
+        <div class="sg-row">
+            @{
+                foreach (ProductCategoryModel category in Model.GetAllCategories())
+                {
+                    <div class="sg-col sg-col-3 sg-col-md-6 sg-col-xs-12" style="opacity:0.1;">
+                        <div class="sg-card sg-card--hero sg-shadow--blur__1dp">
+                            <div class="sg-card-container sg-scroll--y sg-scrollshadow-v" style="overflow:hidden;">
+                                <img src="https://i.imgur.com/p3WLUGb.jpg" style="opacity:0.9;" />
+                            </div>
+                            <div class="sg-card-footer sg-card-footer--inner-btn">
+                                <h id="@(category.Id)">@(category.Name)</h>
+                            </div>
+                        </div>
+                    </div>
+                }
+            }
+        </div>
+    </div>
+</div>
