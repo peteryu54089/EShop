@@ -1,0 +1,26 @@
+﻿@model ProductModel
+@using EShop.Models
+@{
+    ViewBag.Title = "商品";
+    IList<ProductModel> products = Model.GetProductsByCategoryId(ViewBag.CategoryId);
+}
+
+<div class="uk-container uk-text-left" id="first_layout">
+    <div class="sg-paragraphs">
+        <div class="sg-row">
+            @{
+                foreach (ProductModel product in products)
+                {
+                    
+                }
+            }
+        </div>
+    </div>
+</div>
+
+@{ 
+    if (products.Count == 0)
+    {
+        <div style="text-align:center;">暫無商品</div>
+    }
+}

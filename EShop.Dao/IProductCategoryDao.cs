@@ -10,7 +10,7 @@ namespace EShop.Dao
     public interface IProductCategoryDao
     {
         /// <summary>
-        /// 依照帳號密碼取得會員
+        /// 取得所有商品類別
         /// </summary>
         IList<ProductCategory> GetAllCategories();
     }

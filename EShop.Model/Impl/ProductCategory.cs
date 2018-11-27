@@ -15,11 +15,14 @@ namespace EShop.Model
 
         public virtual string Name { get; set; }
 
+        public virtual string Image { get; set; }
+
         public ProductCategory(DataTable productCategoryData, int index)
         {
             Id = productCategoryData.Rows[index]["Id"].ToString();
             CategoryId = productCategoryData.Rows[index]["CategoryId"].ToString();
             Name = productCategoryData.Rows[index]["Name"].ToString();
+            Image = productCategoryData.Rows[index]["Image"].ToString();
         }
     }
 }

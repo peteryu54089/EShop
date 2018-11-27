@@ -28,7 +28,7 @@ namespace EShop.Dao
         {
             DataTable dt = new DataTable();
             const string sql = @"
-                SELECT Id, CategoryId, Name
+                SELECT Id, CategoryId, Name, Image
                 FROM PRODUCT_CATEGORY";
             using (SQLiteConnection conn = new SQLiteConnection(GetDBConnectionString()))
             {

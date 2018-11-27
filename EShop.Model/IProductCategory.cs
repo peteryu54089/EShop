@@ -13,5 +13,7 @@ namespace EShop.Model
         string CategoryId { get; set; }
 
         string Name { get; set; }
+
+        string Image { get; set; }
     }
 }

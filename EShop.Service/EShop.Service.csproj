@@ -41,7 +41,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Impl\ProductService.cs" />
     <Compile Include="Impl\ProductCategoryService.cs" />
+    <Compile Include="IProductService.cs" />
     <Compile Include="IProductCategoryService.cs" />
     <Compile Include="IMemberService.cs" />
     <Compile Include="Impl\MemberService.cs" />

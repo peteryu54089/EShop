@@ -1,0 +1,6 @@
+C:\Users\yuqingyun\source\repos\EShop\EShop.Model\bin\Release\EShop.Model.dll
+C:\Users\yuqingyun\source\repos\EShop\EShop.Model\bin\Release\EShop.Model.pdb
+C:\Users\yuqingyun\source\repos\EShop\EShop.Model\obj\Release\EShop.Domain.csprojAssemblyReference.cache
+C:\Users\yuqingyun\source\repos\EShop\EShop.Model\obj\Release\EShop.Domain.csproj.CoreCompileInputs.cache
+C:\Users\yuqingyun\source\repos\EShop\EShop.Model\obj\Release\EShop.Model.dll
+C:\Users\yuqingyun\source\repos\EShop\EShop.Model\obj\Release\EShop.Model.pdb

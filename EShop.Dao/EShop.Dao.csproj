@@ -60,7 +60,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Impl\ProductDao.cs" />
     <Compile Include="Impl\ProductCategoryDao.cs" />
+    <Compile Include="IProductDao.cs" />
     <Compile Include="IProductCategoryDao.cs" />
     <Compile Include="IMemberDao.cs" />
     <Compile Include="Impl\MemberDao.cs" />

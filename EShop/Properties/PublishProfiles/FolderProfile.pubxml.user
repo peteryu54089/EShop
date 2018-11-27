@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+此檔案由您的 Web 專案發佈/封裝處理序使用。您可以藉由編輯此 MSBuild 檔案，
+自訂此處理序的行為。若要深入了解，請前往 https://go.microsoft.com/fwlink/?LinkID=208121。 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\inetpub\wwwroot\EShop</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/EntityFramework.dll">
+      <publishTime>10/23/2017 13:15:18</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.SqlServer.dll">
+      <publishTime>10/23/2017 13:15:20</publishTime>
+    </File>
+    <File Include="bin/EShop.Common.dll">
+      <publishTime>11/27/2018 13:38:12</publishTime>
+    </File>
+    <File Include="bin/EShop.Common.pdb">
+      <publishTime>11/27/2018 13:38:12</publishTime>
+    </File>
+    <File Include="bin/EShop.Dao.dll">
+      <publishTime>11/27/2018 22:32:40</publishTime>
+    </File>
+    <File Include="bin/EShop.Dao.dll.config">
+      <publishTime>11/08/2018 16:16:21</publishTime>
+    </File>
+    <File Include="bin/EShop.Dao.pdb">
+      <publishTime>11/27/2018 22:32:40</publishTime>
+    </File>
+    <File Include="bin/EShop.dll">
+      <publishTime>11/27/2018 23:26:53</publishTime>
+    </File>
+    <File Include="bin/EShop.Model.dll">
+      <publishTime>11/27/2018 22:32:40</publishTime>
+    </File>
+    <File Include="bin/EShop.Model.pdb">
+      <publishTime>11/27/2018 22:32:40</publishTime>
+    </File>
+    <File Include="bin/EShop.pdb">
+      <publishTime>11/27/2018 23:26:53</publishTime>
+    </File>
+    <File Include="bin/EShop.Service.dll">
+      <publishTime>11/27/2018 22:32:41</publishTime>
+    </File>
+    <File Include="bin/EShop.Service.pdb">
+      <publishTime>11/27/2018 22:32:41</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>09/05/2018 16:10:50</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>07/25/2012 11:48:56</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe.config">
+      <publishTime>08/08/2018 12:18:12</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.rsp">
+      <publishTime>08/08/2018 12:09:42</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe.config">
+      <publishTime>08/08/2018 12:18:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.rsp">
+      <publishTime>08/08/2018 12:09:56</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.Scripting.dll">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.Scripting.dll">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>08/08/2018 12:09:42</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.amd64.dll">
+      <publishTime>12/05/2017 09:36:44</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.x86.dll">
+      <publishTime>12/05/2017 09:36:44</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Managed.Core.targets">
+      <publishTime>08/08/2018 12:09:42</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>08/08/2018 12:09:42</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Win32.Primitives.dll">
+      <publishTime>11/05/2016 18:55:32</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.AppContext.dll">
+      <publishTime>11/05/2016 18:55:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>05/16/2018 03:29:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Console.dll">
+      <publishTime>11/05/2016 18:55:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.DiagnosticSource.dll">
+      <publishTime>11/05/2016 18:55:52</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.FileVersionInfo.dll">
+      <publishTime>11/05/2016 18:55:56</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.StackTrace.dll">
+      <publishTime>11/05/2016 18:55:52</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Globalization.Calendars.dll">
+      <publishTime>11/05/2016 18:56:02</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Compression.dll">
+      <publishTime>11/05/2016 18:56:08</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Compression.ZipFile.dll">
+      <publishTime>11/05/2016 18:56:04</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.dll">
+      <publishTime>11/05/2016 18:56:08</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.Primitives.dll">
+      <publishTime>11/05/2016 18:56:08</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Net.Http.dll">
+      <publishTime>11/05/2016 18:56:30</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Net.Sockets.dll">
+      <publishTime>11/05/2016 18:56:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>05/16/2018 03:29:44</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Runtime.InteropServices.RuntimeInformation.dll">
+      <publishTime>11/05/2016 18:57:00</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Algorithms.dll">
+      <publishTime>11/05/2016 18:57:14</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Encoding.dll">
+      <publishTime>11/05/2016 18:57:08</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Primitives.dll">
+      <publishTime>11/05/2016 18:57:18</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.X509Certificates.dll">
+      <publishTime>11/05/2016 18:57:18</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Text.Encoding.CodePages.dll">
+      <publishTime>11/05/2016 18:57:20</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Threading.Tasks.Extensions.dll">
+      <publishTime>11/05/2016 18:57:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.ValueTuple.dll">
+      <publishTime>11/05/2016 18:57:30</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.ReaderWriter.dll">
+      <publishTime>11/05/2016 18:57:36</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XmlDocument.dll">
+      <publishTime>11/05/2016 18:57:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XPath.dll">
+      <publishTime>11/05/2016 18:57:40</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XPath.XDocument.dll">
+      <publishTime>11/05/2016 18:57:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe.config">
+      <publishTime>08/08/2018 12:18:18</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.rsp">
+      <publishTime>08/08/2018 12:09:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>08/08/2018 12:18:16</publishTime>
+    </File>
+    <File Include="bin/System.Data.SQLite.dll">
+      <publishTime>08/12/2018 21:34:02</publishTime>
+    </File>
+    <File Include="bin/System.Data.SQLite.dll.config">
+      <publishTime>08/13/2018 21:49:28</publishTime>
+    </File>
+    <File Include="bin/System.Data.SQLite.EF6.dll">
+      <publishTime>08/12/2018 21:34:04</publishTime>
+    </File>
+    <File Include="bin/System.Data.SQLite.Linq.dll">
+      <publishTime>08/12/2018 21:34:02</publishTime>
+    </File>
+    <File Include="bin/System.Web.Helpers.dll">
+      <publishTime>05/10/2018 22:42:40</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>05/10/2018 22:38:08</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>05/10/2018 22:38:32</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Deployment.dll">
+      <publishTime>05/10/2018 22:42:40</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.dll">
+      <publishTime>05/10/2018 22:42:40</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Razor.dll">
+      <publishTime>05/10/2018 22:42:40</publishTime>
+    </File>
+    <File Include="bin/x64/SQLite.Interop.dll">
+      <publishTime>08/12/2018 21:34:28</publishTime>
+    </File>
+    <File Include="bin/x86/SQLite.Interop.dll">
+      <publishTime>08/12/2018 21:29:42</publishTime>
+    </File>
+    <File Include="bin/zh-Hant/System.Web.Helpers.resources.dll">
+      <publishTime>05/10/2018 22:42:46</publishTime>
+    </File>
+    <File Include="bin/zh-Hant/System.Web.Mvc.resources.dll">
+      <publishTime>05/10/2018 22:38:16</publishTime>
+    </File>
+    <File Include="bin/zh-Hant/System.Web.Razor.resources.dll">
+      <publishTime>05/10/2018 22:38:38</publishTime>
+    </File>
+    <File Include="bin/zh-Hant/System.Web.WebPages.Deployment.resources.dll">
+      <publishTime>05/10/2018 22:42:46</publishTime>
+    </File>
+    <File Include="bin/zh-Hant/System.Web.WebPages.Razor.resources.dll">
+      <publishTime>05/10/2018 22:42:46</publishTime>
+    </File>
+    <File Include="bin/zh-Hant/System.Web.WebPages.resources.dll">
+      <publishTime>05/10/2018 22:42:46</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css">
+      <publishTime>07/26/2018 17:18:02</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css">
+      <publishTime>07/26/2018 17:18:02</publishTime>
+    </File>
+    <File Include="Content/chess.css">
+      <publishTime>07/26/2018 17:18:02</publishTime>
+    </File>
+    <File Include="Content/fullcalendar-extra.css">
+      <publishTime>07/26/2018 17:18:02</publishTime>
+    </File>
+    <File Include="Content/fullcalendar.min.css">
+      <publishTime>07/26/2018 17:18:02</publishTime>
+    </File>
+    <File Include="Content/fullcalendar.print.min.css">
+      <publishTime>07/26/2018 17:18:02</publishTime>
+    </File>
+    <File Include="Content/kendo.common-material.min.css">
+      <publishTime>07/26/2018 17:18:02</publishTime>
+    </File>
+    <File Include="Content/kendo.custom.vital-ui-kit.css">
+      <publishTime>07/26/2018 17:18:02</publishTime>
+    </File>
+    <File Include="Content/kendo.custom.vital-ui-kit.css.map">
+      <publishTime>07/26/2018 17:18:02</publishTime>
+    </File>
+    <File Include="Content/kendo.material.min.css">
+      <publishTime>07/26/2018 17:18:02</publishTime>
+    </File>
+    <File Include="Content/layout.css">
+      <publishTime>07/26/2018 17:18:02</publishTime>
+    </File>
+    <File Include="Content/menu.css">
+      <publishTime>07/26/2018 17:18:02</publishTime>
+    </File>
+    <File Include="Content/parallax.css">
+      <publishTime>11/27/2018 22:59:42</publishTime>
+    </File>
+    <File Include="Content/Site.css">
+      <publishTime>11/26/2018 20:25:40</publishTime>
+    </File>
+    <File Include="Content/style.css">
+      <publishTime>11/26/2018 20:23:22</publishTime>
+    </File>
+    <File Include="Content/train.css">
+      <publishTime>11/26/2018 20:23:22</publishTime>
+    </File>
+    <File Include="Content/uikit.min.css">
+      <publishTime>07/26/2018 17:18:02</publishTime>
+    </File>
+    <File Include="Content/variables.css">
+      <publishTime>07/26/2018 17:18:02</publishTime>
+    </File>
+    <File Include="Content/vital-ui-kit.css">
+      <publishTime>07/26/2018 17:18:02</publishTime>
+    </File>
+    <File Include="Content/vital-ui-kit.css.map">
+      <publishTime>07/26/2018 17:18:02</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>11/08/2018 13:31:07</publishTime>
+    </File>
+    <File Include="Scripts/ai.0.22.9-build00167.js">
+      <publishTime>07/26/2018 17:18:02</publishTime>
+    </File>
+    <File Include="Scripts/ai.0.22.9-build00167.min.js">
+      <publishTime>07/26/2018 17:18:02</publishTime>
+    </File>
+    <File Include="Scripts/book-chart.js">
+      <publishTime>07/26/2018 17:18:02</publishTime>
+    </File>
+    <File Include="Scripts/book-grid.js">
+      <publishTime>07/26/2018 17:18:02</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.js">
+      <publishTime>07/26/2018 17:18:02</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.min.js">
+      <publishTime>07/26/2018 17:18:02</publishTime>
+    </File>
+    <File Include="Scripts/chess.js">
+      <publishTime>07/26/2018 17:18:02</publishTime>
+    </File>
+    <File Include="Scripts/create-window.js">
+      <publishTime>07/26/2018 17:18:02</publishTime>
+    </File>
+    <File Include="Scripts/fullcalendar-extra.js">
+      <publishTime>07/26/2018 17:18:02</publishTime>
+    </File>
+    <File Include="Scripts/fullcalendar.min.js">
+      <publishTime>07/26/2018 17:18:02</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.js">
+      <publishTime>07/26/2018 17:18:02</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.min.js">
+      <publishTime>07/26/2018 17:18:02</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.min.map">
+      <publishTime>07/26/2018 17:18:02</publishTime>
+    </File>
+    <File Include="Scripts/jquery-2.1.4.min.js">
+      <publishTime>07/26/2018 17:18:02</publishTime>
+    </File>
+    <File Include="Scripts/kendo.all.min.js">
+      <publishTime>07/26/2018 17:18:02</publishTime>
+    </File>
+    <File Include="Scripts/menu.js">
+      <publishTime>07/26/2018 17:18:02</publishTime>
+    </File>
+    <File Include="Scripts/modernizr-2.6.2.js">
+      <publishTime>07/26/2018 17:18:02</publishTime>
+    </File>
+    <File Include="Scripts/moment.min.js">
+      <publishTime>07/26/2018 17:18:02</publishTime>
+    </File>
+    <File Include="Scripts/read-window.js">
+      <publishTime>07/26/2018 17:18:02</publishTime>
+    </File>
+    <File Include="Scripts/tool-bar.js">
+      <publishTime>11/27/2018 14:13:03</publishTime>
+    </File>
+    <File Include="Scripts/uikit.min.js">
+      <publishTime>07/26/2018 17:18:02</publishTime>
+    </File>
+    <File Include="Scripts/vital-ui-kit.js">
+      <publishTime>07/26/2018 17:18:02</publishTime>
+    </File>
+    <File Include="Views/Home/Index.cshtml">
+      <publishTime>11/27/2018 23:03:12</publishTime>
+    </File>
+    <File Include="Views/Product/Index.cshtml">
+      <publishTime>11/27/2018 20:12:31</publishTime>
+    </File>
+    <File Include="Views/Shared/_Layout.cshtml">
+      <publishTime>11/27/2018 20:13:58</publishTime>
+    </File>
+    <File Include="Views/web.config">
+      <publishTime>11/08/2018 13:31:07</publishTime>
+    </File>
+    <File Include="Views/_ViewStart.cshtml">
+      <publishTime>11/08/2018 15:28:43</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>11/27/2018 13:38:18</publishTime>
+    </File>
+    <File Include="x64/SQLite.Interop.dll">
+      <publishTime>11/08/2018 16:59:11</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

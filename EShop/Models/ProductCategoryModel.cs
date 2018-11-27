@@ -31,6 +31,14 @@ namespace EShop.Models
         [Required(ErrorMessage = "此欄位必填")]
         public string Name { get; set; }
 
+        /// <summary>
+        /// 商品類別圖片
+        /// </summary>
+        [MaxLength(500)]
+        [DisplayName("商品類別圖片")]
+        [Required(ErrorMessage = "此欄位必填")]
+        public string Image { get; set; }
+
         public ProductCategoryModel()
         {
 
@@ -41,6 +49,7 @@ namespace EShop.Models
             Id = category.Id;
             CategoryId = category.CategoryId;
             Name = category.Name;
+            Image = category.Image;
         }
 
         /// <summary>
